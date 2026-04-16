@@ -96,6 +96,7 @@ body::before {
   margin: 0 auto;
   padding: 0.8rem 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -187,6 +188,7 @@ body::before {
 }
 
 .panel {
+  width: 100%;
   margin-top: 0;
   padding: 0.85rem;
   background: rgba(17, 20, 27, 0.9);
@@ -353,6 +355,19 @@ body::before {
   border: 2px solid var(--line);
   object-fit: cover;
   flex-shrink: 0;
+}
+
+.redirect-hint {
+  text-align: center;
+  padding: 0.8rem 0.4rem 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  width: min(420px, calc(100% - 1.2rem));
+  margin: 0.4rem auto 0;
+}
+
+.redirect-hint p {
+  margin: 0;
 }
 
 .footer {
