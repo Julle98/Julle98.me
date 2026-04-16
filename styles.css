@@ -445,6 +445,22 @@ body::before {
     min-height: 68px;
   }
 
+  .social-card--sponsor {
+    grid-column: span 2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.55rem 0.5rem;
+  }
+
+  .social-card--sponsor .social-icon {
+    flex-shrink: 0;
+  }
+
+  .social-card--sponsor .handle {
+    text-align: left;
+  }
+
   .social-icon {
     width: 16px;
     height: 16px;
