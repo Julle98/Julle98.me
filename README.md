@@ -1,6 +1,6 @@
 # 🌐 Julle98.me website
 
-- My own gateway website for socials and Github projects
+- My own gateway website to my socials and projects in GitHub. Hosted with Github Pages.
 
 ## Features
 
