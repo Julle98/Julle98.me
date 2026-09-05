@@ -224,6 +224,26 @@ body::before {
   color: var(--muted);
 }
 
+.dev-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.72rem;
+  border-radius: 999px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(14, 201, 184, 0.09);
+  border: 1px solid rgba(14, 201, 184, 0.3);
+  text-decoration: none;
+  transition: border-color 0.22s ease, background 0.22s ease, transform 0.22s ease;
+}
+
+.dev-link:hover {
+  border-color: var(--accent);
+  background: rgba(14, 201, 184, 0.14);
+  transform: translateY(-1px);
+}
+
 .project-list ul {
   margin: 0;
   padding: 0;
