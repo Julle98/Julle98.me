@@ -231,11 +231,11 @@ body::before {
   font-size: 0.72rem;
   border-radius: 999px;
   font-weight: 700;
-  color: var(--accent);
-  background: rgba(14, 201, 184, 0.09);
-  border: 1px solid rgba(14, 201, 184, 0.3);
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--line);
   text-decoration: none;
-  transition: border-color 0.22s ease, background 0.22s ease, transform 0.22s ease;
+  transition: border-color 0.22s ease, background 0.22s ease, transform 0.22s ease, color 0.22s ease;
 }
 
 .dev-link:hover {
